@@ -1,0 +1,59 @@
+﻿<Window x:Class="Excel_Viper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="Start Felder" Grid.Column="0"/>
+            <TextBox Grid.Row="0" x:Name="startFields" Grid.Column="1" Text="9"/>
+
+            <TextBlock Grid.Row="1" Text="Felder pro Artikel" Grid.Column="0"/>
+            <TextBox Grid.Row="1" x:Name="filedsPerProduct" Grid.Column="1" Text="3"/>
+
+            <TextBlock Grid.Row="2" Text="Dateipfad" Grid.Column="0"/>
+            <TextBox Grid.Row="2" x:Name="filePath" Grid.Column="1"/>
+
+            <TextBlock Grid.Row="3" Text="Blatt Name" Grid.Column="0"/>
+            <ComboBox IsEditable="True" Grid.Row="3" x:Name="worksheetName" SelectionChanged="worksheetName_SelectionChanged" Grid.Column="1"/>
+
+            <TextBlock Grid.Row="4" Text="Start Zeile" Grid.Column="0"/>
+            <TextBox Grid.Row="4" x:Name="startRow" Grid.Column="1" Text="2"/>
+
+            <TextBlock Grid.Row="5" Text="Anzahl Artikel" Grid.Column="0"/>
+            <TextBox Grid.Row="5" x:Name="prodCount" Grid.Column="1"/>
+
+            <TextBlock Grid.Row="6" Text="Letzte Zeile" Grid.Column="0"/>
+            <TextBox Grid.Row="6" x:Name="lastRow" Grid.Column="1"/>
+
+            <TextBlock Grid.Row="7" Text="Neuer Blatt Name" Grid.Column="0"/>
+            <TextBox Grid.Row="7" x:Name="newWorksheetName" Grid.Column="1"/>
+        </Grid>
+
+        <Button Content="Load" Grid.Row="1" Click="Load"/>
+        <Button Content="Start" Grid.Row="2" Click="Start_Format"/>
+        <ProgressBar x:Name="prog" Grid.Row="3"/>
+    </Grid>
+</Window>

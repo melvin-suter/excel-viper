@@ -1,0 +1,13 @@
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\bin\Debug\Excel Viper.exe.config
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\bin\Debug\Excel Viper.exe
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\bin\Debug\Excel Viper.pdb
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\obj\Debug\MainWindow.baml
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\obj\Debug\MainWindow.g.cs
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\obj\Debug\App.g.cs
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\obj\Debug\Excel Viper_MarkupCompile.cache
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\obj\Debug\Excel Viper.g.resources
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\obj\Debug\Excel_Viper.Properties.Resources.resources
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\obj\Debug\Excel Viper.csproj.GenerateResource.Cache
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\obj\Debug\Excel Viper.exe
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\obj\Debug\Excel Viper.pdb
+\\zrh1s00166\zzhome-chjhms03$\documents\visual studio 2013\Projects\Excel Viper\Excel Viper\obj\Debug\Excel Viper.csprojResolveAssemblyReference.cache
